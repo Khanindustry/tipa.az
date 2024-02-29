@@ -1,0 +1,127 @@
+.img {
+    height: 533px;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    min-height: 215px;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+.img img{
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+}
+.img .rank {
+    background: rgba(0,0,0,.5);
+    border: none;
+    padding: 11px 16px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    align-items: center;
+    border-radius: 0 6px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 24px;
+}
+.img .rank .rank-average{
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 0;
+    font-family: ProximaNova-Bold;
+    color: #fff;
+}
+.img .rank .rank-label{
+    word-wrap: break-word;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    color: #fff;
+}
+
+.business-name{
+    margin-top: 20px;
+    position: relative;
+}
+
+.business-name h1{
+    font-size: 32px;
+    white-space: normal;    
+    color: #484848;
+}
+
+.business-name span{
+    color: #767676;
+    font-size: 12px;
+    letter-spacing: .08px;
+    line-height: 16px;
+}
+
+.business-name .fav{
+    position: absolute;
+    top: 0;
+    font-size: 35px;
+    right: 2px;
+    text-decoration: none;
+}
+
+.business-name .fav i{
+    width: 36px;
+    height: 36px;
+    color: #bfbfbf;
+    height: inherit;
+    max-height: 100%;
+    max-width: 100%;
+    width: inherit;
+}
+.map{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.about{
+    margin-left: 20px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    padding: 30px 22px 1px;
+}
+.about h2{
+    color: #383734;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .08px;
+    line-height: 16px;
+}
+
+.about .pphone{
+    margin-right: 6px;
+    color: #1f1f1f;
+    line-height: 20px;
+    margin-bottom: 22px;
+    padding: 15px 0;
+}
+.about .pphone i{
+   
+    color: #979797;
+    font-size: 20px;
+}
+
+.about .pphone a{
+    line-height: 20px;
+    margin-left:10px ;
+   color:black;
+   font-size: 17px;
+   text-decoration: none;
+}
+.about .timee li{
+    list-style-type: none;
+    color: #484848;
+    padding: 0 0 16px;
+    vertical-align: top;
+    width: 50%;
+}
